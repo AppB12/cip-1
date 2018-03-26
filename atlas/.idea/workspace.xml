@@ -1,198 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61fc945b-42ef-496f-aead-88dd149fead4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0007_auto_20170605_1826.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/blanket_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/earphone_ATLAS_05June2017_124814PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/images/icons/amazon_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/cooler_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Headphone_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0019_auto_20180123_1635.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_30May2017_061527PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_02June2017_011231PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/iron_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/script/vendor/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Headphone_ATLAS_05June2017_121304PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/Television.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/smart phone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/blanket_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/coolant_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Heater_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/tv_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/dryer_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/cable_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/smartphone_ATLAS_29June2017_054857PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/tv_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_18May2017_122744PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/dryer_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_25May2017_113258AM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Headphone_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/uploads/cars5k.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/cable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02_92.csv_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_18May2017_120424PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02.csv_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/mobile_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/earphone_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/mobile_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/dryer_ATLAS_23May2017_061020PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_31May2017_010158PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Headphone_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Heater_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/cooler_ATLAS_29May2017_050844PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/phone_ATLAS_02June2017_053531PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/tv_ATLAS_05June2017_064232PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/mobile_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_9_2.csv_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/phone_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/cable_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/washer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/iron_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/tv_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0010_auto_20180122_1248.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/testcsv7_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/images/icons/homedepot_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_30May2017_064637PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/smart phone_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/script/analysisnew.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/images/icons/header4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_18May2017_125416PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_18May2017_115407AM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_9_2.csv_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_18May2017_035902PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0012_auto_20180122_1255.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0009_auto_20180122_1243.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/iron_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/testcsv7_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/cooler_ATLAS_19May2017_054852PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0015_auto_20180122_1333.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0011_uploadanalyses_uploads.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0016_auto_20180122_1335.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/script/vendor/Chart.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_9_2.csv_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/phone_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Television_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/BMW_02_92.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/tf_data.csv_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/cooler_ATLAS_31May2017_022016PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/washer_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/phone_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/washer_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/water filter_ATLAS_29June2017_022944PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/smartphone_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/washer_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/water filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/smartphone_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/smartphone_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/blanket_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02.csv_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/mobile_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Heater_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/uploads/BMW_02_92.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_31May2017_031643PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/testcsv7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/script/vendor/Chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/cooler_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/coolant_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_30May2017_055108PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/cooler_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/testcsv7_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02.csv_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/dryer_ATLAS_01June2017_063727PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/water filter_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/smart phone_ATLAS_29June2017_050101PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/coolant_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/cable_ATLAS_23February2018_121614PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02_92_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/dryer_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/cooler_ATLAS_19May2017_054241PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02_92_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/water filter_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0018_auto_20180123_1452.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/tf_data.csv_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0004_auto_20170531_1238.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Headphone_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/smart phone_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/iron_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0003_auto_20170529_1702.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/earphone_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/coolant_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/cable_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/tv.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Coolant_ATLAS_18May2017_063004PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_31May2017_023412PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/uploads/testcsv7.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0014_uploadanalyses.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/phone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/water filter_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/tf_data.csv_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/phone_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/images/icons/header3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_18May2017_124236PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Coolant_ATLAS_18May2017_114245AM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/tf_data.csv_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/cooler.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/images/icons/header2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/HEATER_ATLAS_01June2017_063147PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0017_auto_20180122_1335.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/earphone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/PyScripts/Outputs/keywordsTD.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/phone_ATLAS_21February2018_054915PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/earphone_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0005_product_prating.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Cooler_ATLAS_23May2017_060031PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Television_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/smart phone_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/images/icons/walmart_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Television_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Heater_ATLAS_30May2017_062314PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/cooler_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/earphone_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02_92.csv_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/cooler_ATLAS_29June2017_042023PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Heater_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/script/executive_summary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/dryer_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/cable_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/script/vendor/Chart.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0008_uploads.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/smartphone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/Heater.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Cooler_ATLAS_01June2017_061523PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/water filter_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Cooler_ATLAS_05June2017_110156AM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/images/icons/header.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/Television_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0006_analysis_sentiscore.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02_92_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0013_uploads.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/PyScripts/Outputs/ATLAS_Universal.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/heater_ATLAS_29June2017_044300PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_9_2.csv_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/Television_ATLAS_06July2017_065823PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02_92.csv_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/smartphone_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02.csv_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/washer_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/viz/headphone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/earphone_ATLAS_02June2017_054958PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02_92_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/sourceMap.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/templates/atlas/includes/mobile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/tv_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/smart phone_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/blanket_dict.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/testcsv7_tfidf_corpus.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/topicmodel/models/BMW_02_92.csv_texts.pkl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/washer_ATLAS_07July2017_010907PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/static/atlas/styles/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/database/Outputs/mobile_ATLAS_29June2017_033102PM.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/atlas/migrations/0002_auto_20170529_1658.py" />
-    </list>
+    <list default="true" id="61fc945b-42ef-496f-aead-88dd149fead4" name="Default" comment="" />
     <ignored path="django-atlas.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -213,95 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/atlas/static/atlas/script/app1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brand_summary.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/atlas/static/atlas/script/brand_summary.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite/atlas/static/atlas/script/search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/atlas/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service_urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/atlas/urls/service_urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clustering.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/atlas/templates/atlas/Clustering.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="clustering.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/atlas/static/atlas/script/clustering.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="316">
               <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbConfig.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/atlas/config/dbConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/atlas/templates/atlas/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="199" column="11" selection-start-line="199" selection-start-column="11" selection-end-line="199" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -310,13 +45,12 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mysite/atlas/urls/view_urls.py" />
-        <option value="$PROJECT_DIR$/mysite/atlas/templates/atlas/header.html" />
         <option value="$PROJECT_DIR$/mysite/atlas/static/atlas/script/brand_summary.js" />
         <option value="$PROJECT_DIR$/mysite/atlas/static/atlas/script/topicmodeling.js" />
         <option value="$PROJECT_DIR$/mysite/atlas/static/atlas/script/clustering.js" />
@@ -337,6 +71,7 @@
         <option value="$PROJECT_DIR$/mysite/atlas/static/atlas/script/app1.js" />
         <option value="$PROJECT_DIR$/mysite/atlas/static/atlas/script/search.js" />
         <option value="$PROJECT_DIR$/mysite/atlas/views.py" />
+        <option value="$PROJECT_DIR$/mysite/atlas/templates/atlas/header.html" />
       </list>
     </option>
   </component>
@@ -408,6 +143,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="atlas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="atlas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -444,7 +197,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="requ&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/database/request.csv&#10;searc&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/search.js&#10;clustering&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/clustering.js&#10;clus&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/templates/atlas/Clustering.html&#10;service&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/urls/service_urls.py&#10;views&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/views.py&#10;sear&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/search.js&#10;dbcon&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/config/dbConfig.py&#10;req&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/database/request.csv&#10;header&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/templates/atlas/header.html&#10;summar&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/templates/atlas/Summary.html&#10;bran&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/brand_summary.js&#10;compar&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/templates/atlas/Comparison.html&#10;app1&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/app1.js&#10;cluster&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/clustering.js&#10;atlas&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/PyScripts/ATLAS1.py&#10;task1&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/PyScripts/task1.py&#10;sett&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/mysite/settings.py&#10;model&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/models.py&#10;wsg&#9;null&#9;null&#10;comparison.js&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/comparison.js&#10;analys&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/analysis.js&#10;anal&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/analysis.js&#10;compa&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/templates/atlas/Comparison.html&#10;style&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/styles/comparison-style.css&#10;product-tabs&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/templates/comparison/product-tabs.html&#10;url&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/urls/url_mounts.py&#10;analysis&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/analysis.py&#10;serv&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/urls/service_urls.py&#10;summary&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/templates/atlas/Summary.html&#10;main&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/styles/main.css&#10;an&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/analysis.py&#10;view&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/views.py&#10;servi&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/urls/service_urls.py&#10;analy&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/analysis.js&#10;at&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/PyScripts/ATLAS1.py&#10;product&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/services/product_service.py&#10;mode&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/models.py&#10;clusterin&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/clustering.js&#10;topic&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/topicmodeling.js&#10;view_&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/urls/view_urls.py" />
+    <property name="SearchEverywhereHistoryKey" value="sett&#9;FILE&#9;file://C:/Users/akshat.gupta/PycharmProjects/atlas/mysite/mysite/settings.py&#10;requ&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/database/request.csv&#10;searc&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/search.js&#10;clustering&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/clustering.js&#10;clus&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/templates/atlas/Clustering.html&#10;service&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/urls/service_urls.py&#10;views&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/views.py&#10;sear&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/search.js&#10;dbcon&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/config/dbConfig.py&#10;req&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/database/request.csv&#10;header&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/templates/atlas/header.html&#10;summar&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/templates/atlas/Summary.html&#10;bran&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/brand_summary.js&#10;compar&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/templates/atlas/Comparison.html&#10;app1&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/app1.js&#10;cluster&#9;FILE&#9;file://C:/Python27/atlas-master/atlas/mysite/atlas/static/atlas/script/clustering.js&#10;atlas&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/PyScripts/ATLAS1.py&#10;task1&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/PyScripts/task1.py&#10;model&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/models.py&#10;wsg&#9;null&#9;null&#10;comparison.js&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/comparison.js&#10;analys&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/analysis.js&#10;anal&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/analysis.js&#10;compa&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/templates/atlas/Comparison.html&#10;style&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/styles/comparison-style.css&#10;product-tabs&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/templates/comparison/product-tabs.html&#10;url&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/urls/url_mounts.py&#10;analysis&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/analysis.py&#10;serv&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/urls/service_urls.py&#10;summary&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/templates/atlas/Summary.html&#10;main&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/styles/main.css&#10;an&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/analysis.py&#10;view&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/views.py&#10;servi&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/urls/service_urls.py&#10;analy&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/analysis.js&#10;at&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/PyScripts/ATLAS1.py&#10;product&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/services/product_service.py&#10;mode&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/models.py&#10;clusterin&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/clustering.js&#10;topic&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/static/atlas/script/topicmodeling.js&#10;view_&#9;FILE&#9;file://C:/Users/akshat.gupta/Documents/atlas-master/mysite/atlas/urls/view_urls.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -650,16 +403,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27455357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23586309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40849674" sideWeight="0.41964287" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38235295" sideWeight="0.4233631" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29200652" sideWeight="0.63095236" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38235295" sideWeight="0.58035713" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38235295" sideWeight="0.5766369" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -961,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/atlas/PyScripts/ATLAS1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1003,26 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/atlas/config/dbConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/atlas/static/atlas/script/app1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/atlas/templates/atlas/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1032,16 +762,6 @@
         <state relative-caret-position="357">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/atlas/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,14 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/atlas/static/atlas/script/clustering.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/atlas/database/request.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1080,8 +792,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/atlas/static/atlas/script/search.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/atlas/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/atlas/config/dbConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/atlas/static/atlas/script/clustering.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/atlas/templates/atlas/header.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="199" column="11" selection-start-line="199" selection-start-column="11" selection-end-line="199" selection-end-column="11" />
           <folding />
         </state>
       </provider>
