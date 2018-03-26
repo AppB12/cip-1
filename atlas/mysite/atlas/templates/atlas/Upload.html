@@ -13,9 +13,9 @@
         <div class="page-header pull-left">
             <div class="page-title">Upload</div>
         </div>
-        <ol class="breadcrumb page-breadcrumb pull-right">
+        <!--<ol class="breadcrumb page-breadcrumb pull-right">
             <li><label id="help" style="cursor:pointer;">Help</label></li>
-        </ol>
+        </ol>-->
         <div class="clearfix"></div>
     </div>
     <!--END TITLE & BREADCRUMB PAGE-->
@@ -23,13 +23,13 @@
     <!--BEGIN CONTENT-->
     <div class="page-content">
 
-        <div class="row" id="helpbox" style="display:none;">
+        <div class="row" id="helpbox"><!--style="display:none;"-->
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <ul>
-                            <li>You can upload your own datasets in .csv/.tsv/.txt</li>
-                            <p>The uploaded dataset should contain atleast two columns ("ID": primary key and "rText": review content). It can optionally also contain following columns:
+                            <li>You can upload your own datasets in <b>.csv/.tsv/.txt</b></li>
+                            <p>The uploaded dataset should contain atleast two columns ("<b>rid</b>": primary key and "<b>rText</b>": review content). It can optionally also contain following columns:
                                 <p style="margin:20px;"><table style="font-size:12px;">
                                     <tr>
                                         <td><b>rTitle</b> (Review title)</td>
@@ -48,7 +48,7 @@
                                     </tr>
                                 </table></p>
                             </li>
-                            <li>You can also upload your custom dictionaries for sentiment and/or trigger/driver tagging</li>
+                            <li>You can also <b>upload your custom dictionaries</b> for sentiment and/or trigger/driver tagging</li>
                             <li>The format for sentiment dictionary is as follows:</li>
                         </ul>
                     </div>
@@ -56,7 +56,7 @@
             </div>
         </div>
         <p></p>
-        <div class="row" id="sd_panel">
+        <div class="row" id="sd_panel" style="color:black;">
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-body">
@@ -73,6 +73,7 @@
                         <div class="radiogroup">
                             <input type="checkbox" name="opt1" value="upld" checked="true"/>
                             <span style="padding-left:2px;"> Upload your own dictionary (deselect to use default dictionary)</span>
+                            <span style="padding-left:2px;color:blue;"> Don't forget to click on <b>Upload</b> button!</span>
                         </div>
 
                         <div class="row" id="sd_upload">
@@ -139,7 +140,7 @@
         <!--&lt;!&ndash; The table listing the files available for upload/download &ndash;&gt;-->
         <!--<table role="presentation" class="table table-striped"><tbody class="files"></tbody></table>-->
 
-        <div class="row hidden" id="td_panel">
+        <div class="row hidden" id="td_panel" style="color:black;">
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-body">
@@ -156,6 +157,7 @@
                         <div class="radiogroup">
                             <input type="checkbox" name="opt2" value="upld" checked="true"/>
                             <span style="padding-left:2px;"> Upload your own dictionary (deselect to use default dictionary)</span>
+                            <span style="padding-left:2px;color:blue;"> Don't forget to click on <b>Upload</b> button!</span>
                         </div>
 
                         <div class="row" id="td_upload">
@@ -169,7 +171,7 @@
             </div>
         </div> <!--td-panel-->
         <p></p>
-        <div class="row hidden" id="data_panel">
+        <div class="row hidden" id="data_panel" style="color:black;">
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-body">
@@ -179,9 +181,10 @@
                             <!--</div>-->
                         <!--</div>-->
 
-                        <div class="row" id="data_upload">
+                        <div class="row" id="data_upload" style="padding:10px;">
                             <!--<div class="col-lg-12">-->
                                 <label class="control-label hidden">Select Dataset</label>{% csrf_token %}
+                                <span style="padding-left:2px;color:blue;"> Don't forget to click on <b>Upload</b> button!</span>
                                 <input id="input-44" name="input44[]" type="file" multiple class="file-loading" >{% csrf_token %}
                             <!--</div>-->
                         <!--</div>-->
@@ -199,6 +202,7 @@
     </div>-->
     <!--END FOOTER-->
 </div>
+    </div>
 
 {% endblock %}
 

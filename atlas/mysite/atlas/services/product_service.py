@@ -13,6 +13,10 @@ import StringIO
 import traceback
 
 
+full_data_dict = {'filename_obj': None, 'file_data': None, 'senti_dict': dbConfig.dict['sentDict'],
+                  'td_dict': dbConfig.dict['keywordsDict']}
+
+
 def fetchRequests():
     df = pd.read_csv(dbConfig.dict["requestUrl"])
     jsonData = df.to_json(orient='records')
@@ -64,17 +68,26 @@ def getMetaDataFromProducts():
     return ls
 
 
+def reset_data_dict_map():
+    global full_data_dict
+
+    full_data_dict = {'filename_obj': None, 'file_data': None, 'senti_dict': dbConfig.dict['sentDict'],
+                      'td_dict': dbConfig.dict['keywordsDict']}
+
+
 def uploadFile(request):
+    global full_data_dict
+    print("INSIDE UPLOADFILE(REQUEST) FUNCTION")
     print("REQUEST")
-    print request
+    #print request
     responseObject = {}
     keyObject = ["message", "status", "body"]
     for i in keyObject:
         responseObject[i] = None
-    print "Content-Type: text/html"
+    #print "Content-Type: text/html"
     a = request.FILES
 
-    print("a:", a)
+    #print("a:", a)
 
     # print (type(a))
     # print dir(request)
@@ -88,10 +101,12 @@ def uploadFile(request):
 
     ids = ['input441[]', 'input442[]', 'input44[]']
 
-    full_data_dict = {'filename_obj': None, 'file_data': None, 'senti_dict': dbConfig.dict['sentDict'], 'td_dict': dbConfig.dict['keywordsDict']}
+    #full_data_dict = {'filename_obj': None, 'file_data': None, 'senti_dict': dbConfig.dict['sentDict'], 'td_dict': dbConfig.dict['keywordsDict']}
     # [dataset name obj, data_df, senti dict, trig-driv dict]
+    #print(full_data_dict)
 
     for i in ids:
+        print("INSIDE FOR LOOP FOR REQUESTS IN UPLOADS")
         try:
             if request.FILES:
                 filedata = request.FILES[i]
@@ -100,7 +115,8 @@ def uploadFile(request):
 
                     if i == 'input441[]':
                         target = dbConfig.dict['sentDictsPath'] + filedata._name
-                        print(target)
+                        #print(target)
+
                         full_data_dict['senti_dict'] = target
                         with file(target, 'w') as outfile:
                             outfile.write(filecontents)
@@ -110,7 +126,7 @@ def uploadFile(request):
                         print("Senti dict uploaded")
                     elif i == 'input442[]':
                         target = dbConfig.dict['tdDictsPath'] + filedata._name
-                        print(target)
+                        #print(target)
                         full_data_dict['td_dict'] = target
                         with file(target, 'w') as outfile:
                             outfile.write(filecontents)
@@ -120,7 +136,7 @@ def uploadFile(request):
                         print("TD dict uploaded")
                     elif i == 'input44[]':
                         target = dbConfig.dict['uploadsUrl'] + filedata._name
-                        print(target)
+                        #print(target)
                         full_data_dict['filename_obj'] = filedata._name
                         full_data_dict['file_data'] = filecontents
                         with file(target, 'w') as outfile:
@@ -135,27 +151,30 @@ def uploadFile(request):
                             with open(dbConfig.dict["requestUrl"], 'a') as f:
                                 df1.to_csv(f, header=False)
                             f.close()
+                        print("full_data_dict")
+                        print(full_data_dict)
                         print("calling task1")
                         task1.pool_exe_file(full_data_dict)
+                        reset_data_dict_map()
         except:
-            print("Error while uploading file")
-            # print traceback_exc()
+            print("Error while uploading file:-")
+            print traceback.print_exc()
 
-    try:
-        if request.FILES['files[]']:
-            filedata = request.FILES['files[]']
-            if filedata.file:  # field really is an upload
-                filecontents = filedata.file.read()
-                target = dbConfig.dict['sentDictsPath'] + "\\" + filedata._name
-                print(target)
-                with file(target, 'w') as outfile:
-                    outfile.write(filecontents)
-                data_df = pd.read_csv(StringIO.StringIO(filecontents))
-                print("sentidict saved")
-                # full_data_dict['trigdriv_dict'] = data_df
-    except:
-        print "Exception caught"
-        #print traceback.print_exc()
+    # try:
+    #     if request.FILES['files[]']:
+    #         filedata = request.FILES['files[]']
+    #         if filedata.file:  # field really is an upload
+    #             filecontents = filedata.file.read()
+    #             target = dbConfig.dict['sentDictsPath'] + "\\" + filedata._name
+    #             print(target)
+    #             with file(target, 'w') as outfile:
+    #                 outfile.write(filecontents)
+    #             data_df = pd.read_csv(StringIO.StringIO(filecontents))
+    #             print("sentidict saved")
+    #             # full_data_dict['trigdriv_dict'] = data_df
+    # except:
+    #     print "Exception caught"
+    #     #print traceback.print_exc()
 
     #print("calling task1")
     #task1.pool_exe_file(filedata._name, data_df)

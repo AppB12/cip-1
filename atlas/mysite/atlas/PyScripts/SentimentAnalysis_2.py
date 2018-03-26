@@ -163,7 +163,7 @@ def senti_main2(kw_str, filecontents, sentidict):
 
     print("type of contents_df:", type(filecontents))
     filecontents = pd.read_csv(StringIO(filecontents))
-    print("contents_df: ", filecontents)
+    #print("contents_df: ", filecontents)
 
     try:
         revs_df = Uploads.objects.filter(pCategory=kw_str).only('rid','rText','rRating').values()
@@ -186,7 +186,7 @@ def senti_main2(kw_str, filecontents, sentidict):
             for i in range(0, len(unigrams) - 2):  # form trigrams
                 trigrams.append(unigrams[i] + " " + unigrams[i + 1] + " " + unigrams[i + 2])
             for i in trigrams:
-                # with open(dbConfig.dict['sentDict']) as tsv:
+                #with open(dbConfig.dict['sentDict']) as tsv:
                 with open(sentidict) as tsv:
                     for line in csv.reader(tsv, dialect="excel-tab"):
                         if str(i).lower() == str(line[0]).lower():
@@ -206,7 +206,7 @@ def senti_main2(kw_str, filecontents, sentidict):
             for i in range(0, len(unigrams) - 1):  # form bigrams
                 bigrams.append(unigrams[i] + " " + unigrams[i + 1])
             for i in bigrams:
-                # with open(dbConfig.dict['sentDict']) as tsv:
+                #with open(dbConfig.dict['sentDict']) as tsv:
                 with open(sentidict) as tsv:
                     for line in csv.reader(tsv, dialect="excel-tab"):
                         # line_words = str(line[0]).split(" ")
@@ -225,7 +225,7 @@ def senti_main2(kw_str, filecontents, sentidict):
             # print curr_rev3
             unigrams = str(curr_rev3).split(" ")  # for unigrams
             for rw in unigrams:
-                # with open(dbConfig.dict['sentDict']) as tsv:
+                #with open(dbConfig.dict['sentDict']) as tsv:
                 with open(sentidict) as tsv:
                     for line in csv.reader(tsv,
                                            dialect="excel-tab"):  # You can also use delimiter="\t" rather than giving a dialect.
@@ -276,5 +276,3 @@ def senti_main2(kw_str, filecontents, sentidict):
         print(traceback.print_exc())
 
     return status_code
-
-

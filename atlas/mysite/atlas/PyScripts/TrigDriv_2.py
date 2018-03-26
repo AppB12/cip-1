@@ -150,9 +150,10 @@ def td_main2(kw_str, tddict):
             elif 'driver' in str(r['ToD']).lower() and r['Types'] not in drivers:
                 drivers.append(r['Types'])
 
-        print(triggers)
-        print(drivers)
+        #print(triggers)
+        #print(drivers)
 
+        # NOT USED -
         #triggers = ['Upgrade', 'Replace', 'FirstTimeBuyer', 'Gift', 'Marketing-Sale']
         # subtriggers = ['Upgrade_Upgrade',
         #                'Replace_Replace',

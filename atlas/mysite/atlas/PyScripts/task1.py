@@ -20,11 +20,11 @@ import traceback
 
 
 def caller_file(full_data_dict):
-    print(full_data_dict)
+    #print(full_data_dict)
     request = full_data_dict['filename_obj']
-    print("Entering File analysis", request)
+    #print("Entering File analysis", request)
     filecontents = full_data_dict['file_data']
-    print("filecontents:", filecontents)
+    #print("filecontents:", filecontents)
 
     #db = pymongo.MongoClient().atlas
     #s = request.encode('utf-8')
@@ -67,7 +67,7 @@ def caller_file(full_data_dict):
     try:
         print("Calling sentiment analyses to run on uploaded file...")
         sent_list = SentimentAnalysis_2.senti_main2(request, filecontents, full_data_dict['senti_dict'])
-        print sent_list
+        #print sent_list
         print("Sentiment data inserted into DB")
         df.ix[(df.reqKw == request), 'reqStatus'] = "Sentiment analysis done"
 
@@ -77,7 +77,7 @@ def caller_file(full_data_dict):
 
     try:
         td_list = TrigDriv_2.td_main2(request, full_data_dict['td_dict'])
-        print td_list
+        #print td_list
         print("TriggerDriver data inserted into DB")
         df.ix[(df.reqKw == request), 'reqStatus'] = "Trigger/driver analysis complete"
     except:
@@ -85,7 +85,7 @@ def caller_file(full_data_dict):
         print(traceback.print_exc())
 
     print "Going to topic model"
-    logging.info("going to topicmodeling.main")
+    #logging.info("going to topicmodeling.main")
 
     # Performing Topic Modeling Analysis
     num_topics = 5
