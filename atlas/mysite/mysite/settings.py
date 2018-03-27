@@ -94,13 +94,13 @@ DATABASES = {
         # 'ENGINE': 'pure-quasar-192209:us-east1:cip-sql-v1',
         # 'ENGINE': 'google.appengine.ext.django.backends.rdbms',
         # 'INSTANCE': 'pure-quasar-192209:us-east1:cip-sql-v1',
-        'NAME': 'neodb',
-        'USER': 'root',
 
-        'PASSWORD': 'root',
-        #'PASSWORD': 'GzgZ5crSI6ZV',
-        'HOST': 'localhost',
-        #'HOST': '35.190.128.190',
+        'NAME': 'neodb',
+        #'HOST': 'localhost',
+        'HOST': '104.196.128.148',
+        'USER': 'root',
+        #'PASSWORD': 'root',
+        'PASSWORD': 'GzgZ5crSI6ZV',
         'PORT': '3306',
     }
 }
